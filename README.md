@@ -1,6 +1,6 @@
-# IoT Reference Implementation: How-to Build a Face Access Control Solution
+# Reference Implementation: How-to Build a Face Access Control Solution
 
-## Introduction
+## What it Does
 
 The Face Access Control application is one of a series of IoT reference implementations aimed at instructing users on how to
 develop a working solution for a particular problem. The solution uses facial recognition as the basis of a control system
@@ -46,22 +46,22 @@ This is an example of the analytics tab:
 
 ![](./images/analytics-screenshot.jpg)
 
-## Hardware requirements
+## Requirements
+### Hardware
 
  * 5th Generation Intel® Core™ processor or newer *or* Intel® Xeon® v4, or Intel® Xeon® v5 Processors with Intel® Graphics Technology (if enabled by OEM in BIOS and motherboard)
 [[tested on NUC6i7KYK](https://www.intel.com/content/www/us/en/products/boards-kits/nuc/kits/nuc6i7kyk.html)]
  * USB Webcam [tested with Logitech\* C922x Pro Stream]
 
-## Software requirements
-
+### Software
  * Ubuntu\* 16.04
- * [OpenVINO™](https://software.intel.com/en-us/computer-vision-sdk)
+ * [OpenVINO™ toolkit](https://software.intel.com/en-us/computer-vision-sdk)
 
 ## How to set up
 
-### OpenVINO™ 
+### OpenVINO™ toolkit
 
-#### Download and Install OpenVINO™
+#### Download and Install OpenVINO™ toolkit
 
 The guide for installing OpenVINO™ is offered [here](https://software.intel.com/en-us/articles/CVSDK-Install-Linux).
 After completing the registration, download the archive for Ubuntu\*, unpack it, and run the GUI installer:
